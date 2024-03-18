@@ -248,3 +248,61 @@ Futures and Vanilla Options APIs are not supported:
 Contributions are welcome.<br/>
 If you've found a bug within this project, please open an issue to discuss what you would like to change.<br/>
 If it's an issue with the API, please open a topic at [Binance Developer Community](https://dev.binance.vision)
+
+
+## Cassie add git branch test
+
+### 1. 创建一个新分支
+```
+git checkout -b <new-branch-name>
+
+git push origin <new-branch-name>
+```
+
+### 2. 切换到新分支
+```
+git checkout <new-branch-name>
+```
+
+### 3. 提交更改
+```
+git add .
+git commit -m "your commit message"
+```
+
+### 4. 推送到远程分支
+```
+git push origin <new-branch-name>  
+```
+### 5. 创建一个拉取请求
+在GitHub上创建一个拉取请求，将您的分支与主分支进行比较。
+
+### 6. 等待审查和合并
+等待您的拉取请求被审查和合并。
+
+###
+### 7. 删除本地和远程分支
+```
+git branch -d <new-branch-name>
+git push origin --delete <new-branch-name>
+```
+
+### 8. 切换回主分支
+```
+git checkout main
+```
+
+### 9. 拉取主分支的更新
+```     
+git pull        
+```
+
+### 10. 删除本地分支
+```
+git branch -d <new-branch-name>
+```
+
+### 11. 删除远程分支
+```
+git push origin --delete <new-branch-name>
+```
